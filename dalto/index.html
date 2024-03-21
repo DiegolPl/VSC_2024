@@ -4,9 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio Pisco Huasi 2024</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Desafio Pisco Huasi <span>2024</span></h1>
+    <header>
+        <div>
+            <img src="img/LOGO PISCO HUASI-01.png" alt="logo pisco huasi 2024" class="logo">
+            <h1>Desafio Pisco Huasi <span>2024</span></h1>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">inicio</a></li>
+                <li><a href="#">Caracteristicas</a></li>
+                <li><a href="#">alojamiento</a></li>
+                <li><a href="#">Ubicacion</a></li>
+                <li><a href="#">contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="slider-container">
+        <div class="oscuridad"></div>
+        <div class="slider">
+            <img src="img/scroll1.jpg" alt="Imagen 1">
+            <img src="img/scroll6.jpg" alt="Imagen 2">
+            <img src="img/scroll3.jpg" alt="Imagen 3">
+            <img src="img/scroll4.jpg" alt="Imagen 4">
+            <img src="img/scroll5.jpg" alt="Imagen 5">
+        </div>
+
+        <div class="controls">
+            <input type="radio" name="slider-control" id="slide1" checked>
+            <label for="slide1"></label>
+            <input type="radio" name="slider-control" id="slide2">
+            <label for="slide2"></label>
+            <input type="radio" name="slider-control" id="slide3">
+            <label for="slide3"></label>
+            <input type="radio" name="slider-control" id="slide4">
+            <label for="slide4"></label>
+            <input type="radio" name="slider-control" id="slide5">
+            <label for="slide5"></label>
+        </div>
+    </section>
+    
     <script src="main.js"></script>
 </body>
 </html>
